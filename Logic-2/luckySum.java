@@ -1,0 +1,15 @@
+public int luckySum(int a, int b, int c) {
+  int sum;
+  
+  if (a == 13) {
+    sum = 0;
+  } else if (b == 13) {
+    sum = a;
+  } else if (c == 13) {
+    sum  = a + b ;
+  } else {
+    sum = a + b + c;
+  }
+  
+  return sum;
+}
